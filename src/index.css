@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+nav ul li {
+  @apply mr-4 text-xl;
+}
+
+button,
+input,
+select {
+  outline: none;
+}
+input {
+  @apply bg-transparent border-accent border rounded-lg placeholder-opacity-50 placeholder-accent;
+}
+.waiter input {
+  @apply bg-white border-accent border rounded-lg placeholder-opacity-60 placeholder-accent;
+}
+
+

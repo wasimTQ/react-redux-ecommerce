@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("./assets/fonts/Product\ Sans\ Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PT Sans - Bold";
+  src: url("./assets/fonts/Product\ Sans\ Bold.ttf") format("truetype");
+}
+* {
+  font-family: "PT Sans", "Ubuntu", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.pt-sans-bold {
+  font-family: "PT Sans - Bold";
+}
+
+.button-style {
+  @apply px-6 py-2 rounded-lg text-lg bg-accent text-white;
+}
+
+.form-field {
+  @apply mb-4;
+}
+form label {
+  @apply block text-base mb-1;
+}
+
+form input,
+form textarea {
+  @apply px-3 py-2 border-b border-gray-300 text-lg w-full;
+}
+
+button {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+
+.activeSidebarNav {
+  @apply text-accent border-r border-accent;
+}
+
+h2 {
+  /* font-family: "DM Sans - Medium"; */
+  @apply text-2xl;
+}
+
+.grid-center {
+  @apply grid place-items-center;
+}
+
+.flex-center {
+  @apply flex justify-between items-center;
+}
+.vertical-center {
+  @apply flex items-center;
+}
+
+.content-box {
+  @apply bg-gray-100 rounded-lg px-4 py-3 vertical-center;
+}
+
+.min-h-52 {
+  min-height: 13rem;
+}
+
+.z-10000 {
+  z-index: 100000;
+}
+
+.cursor-drag {
+  cursor: grab;
+}
+
+.carousel .slider-wrapper {
+  gap: 20px !important;
+}
+
+input[type="number"] {
+  -moz-appearance: none;
+
+  @apply appearance-none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-moz-focus-inner,
+input[type="number"]::-moz-focus-outer {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.fixed-center {
+  @apply fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+
+.coupon li a {
+  @apply text-gray-600 border-b border-gray-600;
+}
+
+.platform-popup select {
+  @apply bg-gray-100 rounded-lg px-5 py-2;
+}
+
+.half-star {
+  clip-path: polygon(50% 0%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.absolute-center {
+  @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}

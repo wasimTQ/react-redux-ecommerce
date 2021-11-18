@@ -1,0 +1,18 @@
+export const EXPIRY_IN_MINUTES = 120;
+export const API_URL = "http://localhost:4000/";
+export const BACKEND_URL = "http://localhost:5000/";
+
+export const SET_PRODUCTS = "SET_PRODUCTS";
+export const SET_PRODUCT_AS_FAVOURITE = "SET_PRODUCT_AS_FAVOURITE";
+export const CHANGE_STOCK_AVAILABILITY = "CHANGE_STOCK_AVAILABILITY";
+
+export const SET_TEXT_FILTER = "SET_TEXT_FILTER";
+export const SORT_BY_RATING = "SORT_BY_RATING";
+export const SORT_BY_CATEGORY = "SORT_BY_CATEGORY";
+export const SET_PAGINATION = "SET_PAGINATION";
+export const SET_STOCK_AVAILABILITY = "SET_STOCK_AVAILABILITY";
+export const SET_PRICE_RANGE = "SET_PRICE_RANGE";
+export const RESET_FILTERS = "RESET_FILTERS";
+
+export const ADD_TO_CART = "ADD_TO_CART";
+export const REMOVE_FROM_CART = "REMOVE_FROM_CART";

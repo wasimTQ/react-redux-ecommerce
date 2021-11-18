@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "wasim",
+      "email": "wasimthoufiq21@gmail.com",
+      "password": "$2a$10$i8nUw6gczJkpWr1U2CCWfOzfrcA4XL30a4nVFHxXvuMHPgyH8U8Se",
+      "id": "22dff072-25d7-46ed-b53d-f2eda3db653b"
+    },
+    {
+      "name": "wasim2",
+      "email": "wasimthoufiq1@gmail.com",
+      "password": "$2a$10$vnwUI1LfnP17erepcCVJeO.o7joMzUGXjN8NFAxQ//lhFNT98iupW",
+      "id": "21a08319-c2f8-4351-a9eb-b20f5a24ce17"
+    },
+    {
+      "name": "wasimT",
+      "email": "wasimthoufiq2@gmail.com",
+      "password": "$2a$10$9o0mQdQJRoPxombKhguWluIRTgdxooKnN0pYcHWnUu1.OQRCZ6WQC",
+      "id": "16e9b02e-032b-4eea-90d7-2df2371cf54c"
+    }
+  ]
+}
